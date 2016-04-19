@@ -129,6 +129,16 @@ footer {
     text-decoration: underline;
 }
 
+/*FAQ Styles*/
+
+h6 {
+    text-transform: uppercase;
+}
+
+#faq_title {
+    margin-bottom: 12%;
+}
+
 /* keep full widget on smaller screens */
 @media (max-width: 767px) { 
 	body {
