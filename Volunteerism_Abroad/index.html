@@ -13,6 +13,9 @@
 
     <!-- Animation -->
     <link href="css/animate.css" rel="stylesheet" type="text/css" />
+    
+    <!-- My fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Oswald|Crimson+Text' rel='stylesheet' type='text/css'>
 
     <!-- My Stylez -->
     <link href="css/style.css" rel="stylesheet" type="text/css">
@@ -33,9 +36,7 @@
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                    <span class="glyphicon glyphicon-menu-hamburger"></span>
                 </button>
 
             </div>
@@ -44,7 +45,7 @@
             <div class="collapse navbar-collapse navbar-left" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-menu-hamburger"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">About Us</a></li>
                             <li><a href="#">The Program</a></li>
@@ -58,50 +59,59 @@
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
-            <a class="navbar-brand" href="#">Logo</a>
+            <a class="navbar-brand" href="#">VA</a>
         </div>
         <!-- /.container-fluid -->
     </nav>
+    
+<!--    CAROUSEL TRY MC-->
+    
+    <!-- Half Page Image Background Carousel Header -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
 
-
-    <!--    CAROUSEL HEADER -->
-
-    <div class="jumbotron">
-
-        <div class="container fill">
-            <div id="myCarousel" class="carousel slide">
-                <div class="carousel-inner">
-                    <div class="active item">
-                        <div class="fill" style="background-image:url('//placehold.it/1024x700/449955/FFF');">
-                            <div class="container">
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="fill" style="background-image:url('//placehold.it/1024x700');">
-                            <div class="container">
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="fill" style="background-image:url('//placehold.it/1024x700/CC1111/FFF');">
-                            <div class="container">
-
-                            </div>
-                        </div>
-                    </div>
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <!-- Set the first background image using inline CSS below. -->
+                <div class="fill"><img class="img-responsive" src="img/carousel_1.JPG"/></div>
+                <div class="carousel-caption">
+                    <h1>VOLUNTEER IN MORROCCO</h1>
+                    <a id="learn_more" class="btn btn-default" href="contactus">LEARN MORE</a>
                 </div>
-                <div class="pull-center">
-                    <a class="carousel-control left" href="#myCarousel" data-slide="prev">‹</a>
-                    <a class="carousel-control right" href="#myCarousel" data-slide="next">›</a>
+            </div>
+            <div class="item">
+                <!-- Set the second background image using inline CSS below. -->
+                <div class="fill"><img class="img-responsive" src="img/carousel_2.JPG"/></div>
+                <div class="carousel-caption">
+                    <h1>TRAVEL FOR A GOOD CAUSE</h1>
+                    <a id="learn_more" class="btn btn-default" href="contactus">LEARN MORE</a>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill"><img class="img-responsive" src="img/carousel_3.JPG"/></div>
+                <div class="carousel-caption">
+                      <h1>CHANGE LIVES</h1>
+                    <a id="learn_more" class="btn btn-default" href="contactus">LEARN MORE</a>
                 </div>
             </div>
         </div>
 
-    </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
 
+    </header>
 
     <!--    WHO ARE WE SECTION-->
 
@@ -109,9 +119,9 @@
         <div class="row">
 
             <div class="col-xs-10 col-xs-offset-1">
-                <h2 class="text-center">WHO WE ARE</h2>
+                <h3 class="text-center">WHO WE ARE</h3>
 
-                <p>Copy copy copy copy copy copy. Copy copy copy copy copy copy. Copy copy copy copy copy copy. Copy copy copy copy copy copy. Copy copy copy copy copy copy. Copy copy copy copy copy copy. Copy copy copy copy copy copy. Copy copy copy copy copy copy. Copy copy copy copy copy copy.</p>
+                <p id="who_text" class="text-justify">Volunteerism Abroad is an organization devoted to change. Getting people out and into the world so they can change lives, and hopefully in the process change their own. We are a very hands on organization and don’t believe in blindly sending people abroad without a close circle of people waiting for you on the ground when you arrive. Whatever goal you might have for going out and volunteering we hope we can be there to help make your journey as easy, affordable, safe, and simply life changing as possible. </p>
 
             </div>
 
@@ -133,9 +143,9 @@
 
                 <div class="col-xs-12 col-sm-10 col-sm-offset-1">
 
-                    <h2>WHERE WILL I STAY?</h2>
+                    <h3>WHERE WILL I STAY?</h3>
 
-                    <p>Copy copy copy copy copy copy. Copy copy copy copy copy copy. Copy copy copy copy copy copy. Copy copy copy copy copy copy. Copy copy copy copy copy copy. Copy copy copy copy copy copy. Copy copy copy copy copy copy. Copy copy copy copy copy copy. Copy copy copy copy copy copy.</p>
+                    <p class="text-justify">While staying in Morocco you have two choices. You can rent an apartment or live with a host family. We highly recommend staying with a host family for a truly Moroccan experience. We feel you should go outside your comfort zone and choose a place that really takes you away from your home life. If you are volunteering for an extended amount of time it’s never a bad idea to only book the homestay for the first couple of weeks and then you can decide after that if you just can’t go on with life without them or if you want some space of your own. </p>
 
                 </div>
 
@@ -145,17 +155,25 @@
 
                 <div class="col-xs-12 col-sm-10 col-sm-offset-1">
 
-                    <h2>THE MORROCCAN PROGRAM</h2>
+                    <h3>THE MORROCCAN PROGRAM</h3>
 
-                    <p>Copy copy copy copy copy copy. Copy copy copy copy copy copy. Copy copy copy copy copy copy. Copy copy copy copy copy copy. Copy copy copy copy copy copy. Copy copy copy copy copy copy. Copy copy copy copy copy copy. Copy copy copy copy copy copy. Copy copy copy copy copy copy.</p>
+                    <p class="text-justify">Morocco is a culturally rich and exciting country. We pride ourselves on being very selective when choosing a country for volunteerism and Morocco is a place that truly offers so much for our volunteers. It’s easily accessible because its proximity to Europe, has good public transit systems, and its all around affordability helps make this a very tangible place to arrive to. Along with being a beautiful and exotic location it is a country full of passionate and hospitable people. Morocco has always left us with more than we can give back. </p>
 
                 </div>
 
                 <div class="col-xs-12 col-sm-10 col-sm-offset-1">
 
-                    <h2>WHAT WILL I BE DOING IN MORROCCO?</h2>
+                    <h3>WHAT WILL I BE DOING IN MORROCCO?</h3>
 
-                    <p>Copy copy copy copy copy copy. Copy copy copy copy copy copy. Copy copy copy copy copy copy. Copy copy copy copy copy copy. Copy copy copy copy copy copy. Copy copy copy copy copy copy. Copy copy copy copy copy copy. Copy copy copy copy copy copy. Copy copy copy copy copy copy.</p>
+                    <p class="text-justify">We offer a wide range of projects that center mostly around the country’s capital city, Rabat. Our projects include:</p>
+                        
+                        <ul>
+                            <li>Teaching English</li>
+                            <li>Helping People with Disabilities</li>
+                            <li>Women's Empowerment Programs</li>
+                        </ul>
+                    
+<p class="text-justify">Because of our wonderful partners in Morocco it’s possible we can arrange customized projects for large groups. Just shoot us an email and we will try our best to make something happen.</p>
 
                 </div>
 
@@ -174,7 +192,7 @@
 
             <div class="text-center">
 
-                <a href="contactus">CONTACT US</a>
+                <a id="contact_button" class="btn btn-default" href="contactus">CONTACT US</a>
 
             </div>
 
@@ -186,9 +204,10 @@
     <!--    RED BAR HISTORY TITLE -->
 
     <div class="container-fluid">
-        <div class="row">
+        
+        <div class="row my_history">
 
-            <h2 class="text-center">THE HISTORY OF VOLUNTEERISM ABROAD</h2>
+            <h3 class="text-center" id="white_title">THE HISTORY OF VOLUNTEERISM ABROAD</h3>
 
         </div>
 
@@ -200,12 +219,12 @@
 
             <div class="col-xs-10 col-xs-offset-1">
 
-                <p>Copy copy copy copy copy copy. Copy copy copy copy copy copy. Copy copy copy copy copy copy. Copy copy copy copy copy copy. Copy copy copy copy copy copy. Copy copy copy copy copy copy. Copy copy copy copy copy copy. Copy copy copy copy copy copy. Copy copy copy copy copy copy.</p>
+                <p class="text-justify">Volunteerism Abroad was founded in 2015 by Chad Pettit. After volunteering and traveling abroad while getting his Bachelors degree in Geography / International Studies minor he went back and interned with the NGO he volunteered through in Morocco. It was in Morocco during his internship he saw what many people’s experiences were lacking and why many people never make it abroad in the first place. He made his fist partners there and Volunteerism Abroad became what it is today. The first person you will meet on your Skype interview will be Chad, and the first person you meet upon arriving to your volunteer destination will be Chad. Like mentioned in the who we are section we are an intimate group that doesn’t put it’s volunteers into the hands of strangers. Small and new you are not a number to us! </p>
             </div>
 
             <div class="col-xs-12 text-center">
 
-                <h3>HAVE MORE QUESTIONS? VISIT OUR <a href="#">FAQ PAGE</a></h3>
+                <h4 id="my_faq">HAVE MORE QUESTIONS? VISIT OUR <a href="#">FAQ PAGE</a></h4>
 
             </div>
 
@@ -215,11 +234,11 @@
 
     <footer class="container-fluid">
 
-        <div class="row">
+        <div class="row my_footer">
 
             <div class="col-xs-4 col-sm-offset-1">
 
-                <h3>CONTACT</h3>
+                <h5>CONTACT</h5>
 
                 <p>hello@volunteerismabroad.com
                     <br>
@@ -232,7 +251,7 @@
 
             <div class="col-xs-4 col-xs-offset-4 col-sm-offset-2 text-right">
 
-                <h3>NAVIGATION</h3>
+                <h5>NAVIGATION</h5>
 
                 <p>
                     <a href="#">About Us</a>

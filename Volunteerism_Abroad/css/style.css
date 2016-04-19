@@ -1,14 +1,132 @@
-html,body{height:100%;}
-.carousel,.item,.active{height:100%;}
-.carousel-inner{height:100%;}
-.fill{width:100%;height:100%;background-position:center;background-size:cover;}
+/*General Styles*/
 
-/* faster sliding speed */
-.carousel-inner > .item {
-    -webkit-transition: 0.3s ease-in-out left;
-    -moz-transition: 0.3s ease-in-out left;
-    -o-transition: 0.3s ease-in-out left;
-    transition: 0.3s ease-in-out left;
+p {
+    font-family: 'Crimson Text', serif;
+}
+
+ul{
+    font-family: 'Crimson Text', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+body { 
+    overflow-x: hidden;
+}
+
+h3 {
+    color: #b94c2f;
+}
+
+/*Navbar Styles*/
+
+.navbar {
+    margin-bottom: 0;
+    background: #b94c2f;
+    color: white;
+    border: none; 
+    border-radius: 0;
+}
+
+.glyphicon-menu-hamburger {
+    color: white; 
+}
+
+.navbar-toggle {
+    border:none;
+}
+
+/*Carousel Styles*/
+
+html,
+body {
+    height: 100%;
+}
+
+.carousel {
+    height: 70%;
+}
+
+.item,
+.active,
+.carousel-inner {
+    height: 100%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+
+/*Section Styles*/
+
+.my_history { 
+    background: #b94c2f;
+    padding-bottom: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#white_title {
+    color: white;
+}
+
+#my_faq {
+    color: #efcb68;
+}
+
+#my_faq a{ 
+    color: #efcb68; 
+    text-decoration: underline;
+}
+
+#contact_button { 
+    background-color: #efcb68;
+    border: none;
+    color: white; 
+    border-radius: 40px;
+    padding: 1% 6%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    font-family: 'Oswald', sans-serif;
+}
+
+#learn_more {
+    background-color: #b94c2f;
+    border: none;
+    color: white; 
+    border-radius: 40px;
+    padding: 1% 6%;
+    margin-top: 3%;
+    margin-bottom: 12%;
+    font-family: 'Oswald', sans-serif;
+}
+
+/*Footer Styles*/
+
+.my_footer {
+    background: #e1e1e1;
+    padding-top: 2%;
+    padding-bottom: 7%;
+}
+
+.my_footer  a {
+    color: black; 
+    text-decoration: underline;
 }
 
 /* keep full widget on smaller screens */
