@@ -21,15 +21,6 @@ h3 {
     padding-top: 8%;
 }
 
-
-.my_history h3{
-    padding-top: 0;
-}
-
-.my_history_words{
-    padding: 3% 0;
-}
-
 .padded_img img{
     padding-top: 8%;  
 }
@@ -116,6 +107,17 @@ footer {
 
 
 /*Section Styles*/
+
+
+
+
+.my_history h3{
+    padding-top: 0;
+}
+
+.my_history_words{
+    padding: 3% 0;
+}
 
 .my_history { 
     background: #91a68c;
