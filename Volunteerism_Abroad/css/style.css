@@ -43,6 +43,7 @@ h3 {
     height: 150%;
 }
 
+<<<<<<< Updated upstream
 .navbar h4 {
     color: white;
 }
@@ -51,6 +52,12 @@ h3 {
     color: white; 
 }
 
+=======
+.navbar .navbar-nav li a {
+    color: white;
+}
+
+>>>>>>> Stashed changes
 /*Carousel Styles*/
 
 html,
@@ -171,5 +178,13 @@ h6 {
 		padding-right: 0;
 	}
     
+<<<<<<< Updated upstream
 }
 
+=======
+    #myCarousel .carousel-caption h1{
+    font-size: 1.8em;
+}
+
+}
+>>>>>>> Stashed changes
