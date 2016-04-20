@@ -18,6 +18,20 @@ body {
 
 h3 {
     color: #b94c2f;
+    padding-top: 8%;
+}
+
+
+.my_history h3{
+    padding-top: 0;
+}
+
+.my_history_words{
+    padding: 3% 0;
+}
+
+.padded_img img{
+    padding-top: 8%;  
 }
 
 /*Navbar Styles*/
@@ -28,11 +42,16 @@ h3 {
     color: white;
     border: none; 
     border-radius: 0;
-    padding-bottom: 2%;
+    height: 75px;
+}
+
+.navbar #bs-example-navbar-collapse-1{
+    padding-top: 25px;
 }
 
 .glyphicon-menu-hamburger {
     color: white; 
+    height: ;
 }
 
 .navbar-toggle {
@@ -40,18 +59,25 @@ h3 {
 }
 
 #nav_logo{
+<<<<<<< HEAD
     height: 200%;
+=======
+    height: 250%;
+>>>>>>> origin/dev-it
 }
 
-.navbar h4 {
+.navbar .navbar-nav li a {
     color: white;
 }
 
+<<<<<<< HEAD
 .navbar-default .navbar-nav > li > a {
     color: white; 
     font-family: 'Oswald', sans-serif;
     font-size: 0.9em;
 }
+=======
+>>>>>>> origin/dev-it
 
 /*Carousel Styles*/
 
@@ -68,15 +94,6 @@ body {
 .active,
 .carousel-inner {
     height: 100%;
-}
-
-#header_logo { 
-    width: 70%;
-    margin-bottom: 7%;
-}
-
-.header_margin {
-    margin-bottom: 20%;
 }
 
 /* Background images are set within the HTML using inline CSS, not here */
@@ -135,12 +152,8 @@ footer {
     border-radius: 40px;
     padding: 1% 6%;
     margin-top: 3%;
+    margin-bottom: 12%;
     font-family: 'Oswald', sans-serif;
-}
-
-.who_text {
-    margin-top: 2%;
-    margin-bottom: 4%;
 }
 
 /*Footer Styles*/
@@ -175,5 +188,18 @@ h6 {
 	}
  
     
+    #myCarousel .carousel-caption h1{
+    font-size: 1.8em;
+    }
+    
+    .navbar{
+        height: 50px;
+    }
+    
+    #nav_logo{
+        height: 150%;
+}
+    
 }
 
+}

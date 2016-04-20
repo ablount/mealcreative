@@ -30,8 +30,6 @@
 
 <body>
 
-    <!-- NAV BAR REDO -->
-
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -40,10 +38,16 @@
                     <span class="sr-only">Toggle navigation</span>
                     <span class="glyphicon glyphicon-menu-hamburger"></span>
                 </button>
+<<<<<<< HEAD
                 <a class="navbar-brand" href="index.html"><img id="nav_logo" src="img/VALogoWhite.png"/></a>
+=======
+                <a class="navbar-brand" href="index.html"><img id="nav_logo" src="img/VALogoWhite.png"></a>
+>>>>>>> origin/dev-it
             </div>
 
+
             <!-- Collect the nav links, forms, and other content for toggling -->
+<<<<<<< HEAD
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#about_us">ABOUT US</a></li>
@@ -52,6 +56,14 @@
                     <li role="separator" class="divider"></li>
                     <li><a href="#our_story">OUR STORY</a></li>
                     <li role="separator" class="divider"></li>
+=======
+            <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#nav_about_us">About Us</a></li>
+                    <li><a href="#nav_program">The Program</a></li>
+                    <li><a href="#nav_stay">Where You'll Stay</a></li>
+                    <li><a href="#nav_our_story">Our Story</a></li>
+>>>>>>> origin/dev-it
                     <li><a href="faq.html">FAQ</a></li>
                 </ul>
             </div>
@@ -60,8 +72,7 @@
         <!-- /.container-fluid -->
     </nav>
 
-
-    <!--    CAROUSEL -->
+    <!--    CAROUSEL TRY MC-->
 
     <!-- Half Page Image Background Carousel Header -->
     <header id="myCarousel" class="carousel slide">
@@ -78,23 +89,24 @@
                 <!-- Set the first background image using inline CSS below. -->
                 <div class="fill"><img class="img-responsive" src="img/carousel_1.JPG" /></div>
                 <div class="carousel-caption">
-                    <img id="header_logo" class="text-center" src="img/VALogoWhite.png" />
+                    <h1>VOLUNTEER IN MORROCCO</h1>
+                    <a id="learn_more" class="btn btn-default" href="contactus">LEARN MORE</a>
                 </div>
             </div>
             <div class="item">
                 <!-- Set the second background image using inline CSS below. -->
                 <div class="fill"><img class="img-responsive" src="img/carousel_2.JPG" /></div>
                 <div class="carousel-caption">
-                    <h1>TRAVEL &amp; CHANGE LIVES</h1>
-                    <a id="learn_more" class="header_margin btn btn-default" href="contactus">LEARN MORE</a>
+                    <h1>TRAVEL FOR A GOOD CAUSE</h1>
+                    <a id="learn_more" class="btn btn-default" href="contactus">LEARN MORE</a>
                 </div>
             </div>
             <div class="item">
                 <!-- Set the third background image using inline CSS below. -->
                 <div class="fill"><img class="img-responsive" src="img/carousel_3.JPG" /></div>
                 <div class="carousel-caption">
-                    <h1>VOLUNTEER IN MOROCCO</h1>
-                    <a id="learn_more" class="header_margin btn btn-default" href="contactus">LEARN MORE</a>
+                    <h1>CHANGE LIVES</h1>
+                    <a id="learn_more" class="btn btn-default" href="contactus">LEARN MORE</a>
                 </div>
             </div>
         </div>
@@ -110,14 +122,14 @@
     </header>
 
     <!--    WHO ARE WE SECTION-->
-
+    <div id="nav_about_us"></div>
     <div class="container-fluid" id="about_us">
         <div class="row">
 
-            <div class="who_text col-xs-10 col-xs-offset-1">
+            <div class="col-xs-10 col-xs-offset-1">
                 <h3 class="text-center">WHO WE ARE</h3>
 
-                <p class="text-justify">Volunteerism Abroad is an organization devoted to change. Getting people out and into the world so they can change lives, and hopefully in the process change their own. We are a very hands on organization and don’t believe in blindly sending people abroad without a close circle of people waiting for you on the ground when you arrive. Whatever goal you might have for going out and volunteering we hope we can be there to help make your journey as easy, affordable, safe, and simply life changing as possible. </p>
+                <p id="who_text" class="text-justify">Volunteerism Abroad is an organization devoted to change. Getting people out and into the world so they can change lives, and hopefully in the process change their own. We are a very hands on organization and don’t believe in blindly sending people abroad without a close circle of people waiting for you on the ground when you arrive. Whatever goal you might have for going out and volunteering we hope we can be there to help make your journey as easy, affordable, safe, and simply life changing as possible. </p>
 
             </div>
 
@@ -133,11 +145,11 @@
 
             <div class="col-xs-12 col-sm-6">
 
-                <div class="col-xs-12">
+                <div class="col-xs-8 col-xs-offset-2 col-sm-10 col-sm-offset-1 padded_img">
                     <img class="img-responsive" src="img/photos_leftmiddle.jpg">
                 </div>
-
-                <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+                <div id="nav_stay"></div>
+                <div class="col-xs-10 col-xs-offset-1">
 
                     <h3>WHERE WILL I STAY?</h3>
 
@@ -146,10 +158,10 @@
                 </div>
 
             </div>
-
+            <div id="nav_program"></div>
             <div class="col-xs-12 col-sm-6" id="program">
 
-                <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+                <div class="col-xs-10 col-xs-offset-1">
 
                     <h3>THE MORROCCAN PROGRAM</h3>
 
@@ -157,7 +169,7 @@
 
                 </div>
 
-                <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+                <div class="col-xs-10 col-xs-offset-1">
 
                     <h3>WHAT WILL I BE DOING IN MORROCCO?</h3>
 
@@ -173,7 +185,7 @@
 
                 </div>
 
-                <div class="col-xs-12">
+                <div class="col-xs-10 col-xs-offset-1 padded_img">
                     <img class="img-responsive" src="img/photos_rightmiddle.jpg">
                 </div>
 
@@ -183,12 +195,11 @@
 
         <!--    CONTACT US BUTTON -->
 
-
         <div class="row">
 
             <div class="text-center">
 
-                <a id="contact_button" class="btn btn-default" href="contactus">CONTACT US</a>
+                <a id="contact_button" class="btn btn-default" href="mailto:hello@volunteerismabroad.com?subject=Morroccan Program">CONTACT US</a>
 
             </div>
 
@@ -199,6 +210,7 @@
     <!--    NEXT TWO SECTIONS IN ONE CONTAINER-->
     <!--    RED BAR HISTORY TITLE -->
 
+    <div id="nav_our_story"></div>
     <div class="container-fluid" id="our_story">
 
         <div class="row my_history">
@@ -215,7 +227,7 @@
 
             <div class="col-xs-10 col-xs-offset-1">
 
-                <p class="text-justify">Volunteerism Abroad was founded in 2015 by Chad Pettit. After volunteering and traveling abroad while getting his Bachelors degree in Geography / International Studies minor he went back and interned with the NGO he volunteered through in Morocco. It was in Morocco during his internship he saw what many people’s experiences were lacking and why many people never make it abroad in the first place. He made his fist partners there and Volunteerism Abroad became what it is today. The first person you will meet on your Skype interview will be Chad, and the first person you meet upon arriving to your volunteer destination will be Chad. Like mentioned in the who we are section we are an intimate group that doesn’t put it’s volunteers into the hands of strangers. Small and new you are not a number to us! </p>
+                <p class="text-justify my_history_words">Volunteerism Abroad was founded in 2015 by Chad Pettit. After volunteering and traveling abroad while getting his Bachelors degree in Geography / International Studies minor he went back and interned with the NGO he volunteered through in Morocco. It was in Morocco during his internship he saw what many people’s experiences were lacking and why many people never make it abroad in the first place. He made his fist partners there and Volunteerism Abroad became what it is today. The first person you will meet on your Skype interview will be Chad, and the first person you meet upon arriving to your volunteer destination will be Chad. Like mentioned in the who we are section we are an intimate group that doesn’t put it’s volunteers into the hands of strangers. Small and new you are not a number to us! </p>
             </div>
 
             <div class="col-xs-12 text-center">
