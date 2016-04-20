@@ -185,7 +185,7 @@ h6 {
  
     
     #myCarousel .carousel-caption h1{
-    font-size: 1.8em;
+        font-size: 1.8em;
     }
     
     .navbar{
@@ -194,7 +194,11 @@ h6 {
     
     #nav_logo{
         height: 150%;
-}
+    }
+    
+    #myCarousel{
+        margin-top: 50px;
+    }
     
 }
 
