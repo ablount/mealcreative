@@ -27,13 +27,21 @@ h3 {
 
 /*Navbar Styles*/
 
-.navbar {
+.navbar{
     margin-bottom: 0;
     background: #b94c2f;
     color: white;
     border: none; 
     border-radius: 0;
     height: 75px;
+}
+
+#navbar-header{
+    background-color: #b94c2f;
+}
+
+.navbar div {
+    background: rgba(185, 76, 47, .5);
 }
 
 .navbar #bs-example-navbar-collapse-1{
@@ -63,6 +71,10 @@ h3 {
     color: white; 
     font-family: 'Oswald', sans-serif;
     font-size: 0.9em;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+    color:#91a68c;
 }
 
 
@@ -128,6 +140,8 @@ footer {
 
 #white_title {
     color: white;
+    font-size: 2.75em;
+    padding: 2%;
 }
 
 #my_faq {
@@ -149,6 +163,7 @@ footer {
     margin-top: 4%;
     margin-bottom: 3%;
     font-family: 'Oswald', sans-serif;
+    font-size: 1.25em;
 }
 
 #learn_more {
@@ -171,6 +186,15 @@ footer {
     padding: 2%;
     margin-top: 3%;
     margin-bottom:5%;
+}
+
+#program a{
+    color: #91a68c;
+}
+
+#program a:hover{
+    text-decoration: none;
+    color: black;
 }
 
 /*Footer Styles*/
