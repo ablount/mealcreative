@@ -121,7 +121,10 @@ footer {
 /*Section Styles*/
 
 
-
+#blue_photo{
+    width: 85%;
+    margin: 0 auto;
+}
 
 .my_history h3{
     padding-top: 0;
