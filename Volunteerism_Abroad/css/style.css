@@ -20,6 +20,8 @@ h3 {
     color: #b94c2f;
 }
 
+
+
 /*Navbar Styles*/
 
 .navbar {
@@ -28,7 +30,7 @@ h3 {
     color: white;
     border: none; 
     border-radius: 0;
-    padding-bottom: 2%;
+    height: 75px;
 }
 
 .glyphicon-menu-hamburger {
@@ -40,24 +42,14 @@ h3 {
 }
 
 #nav_logo{
-    height: 150%;
+    height: 100%;
 }
 
-<<<<<<< Updated upstream
-.navbar h4 {
-    color: white;
-}
-
-.navbar-default .navbar-nav > li > a {
-    color: white; 
-}
-
-=======
 .navbar .navbar-nav li a {
     color: white;
 }
 
->>>>>>> Stashed changes
+
 /*Carousel Styles*/
 
 html,
@@ -73,15 +65,6 @@ body {
 .active,
 .carousel-inner {
     height: 100%;
-}
-
-#header_logo { 
-    width: 70%;
-    margin-bottom: 7%;
-}
-
-.header_margin {
-    margin-bottom: 20%;
 }
 
 /* Background images are set within the HTML using inline CSS, not here */
@@ -139,12 +122,8 @@ footer {
     border-radius: 40px;
     padding: 1% 6%;
     margin-top: 3%;
+    margin-bottom: 12%;
     font-family: 'Oswald', sans-serif;
-}
-
-.who_text {
-    margin-top: 2%;
-    margin-bottom: 4%;
 }
 
 /*Footer Styles*/
@@ -178,13 +157,8 @@ h6 {
 		padding-right: 0;
 	}
     
-<<<<<<< Updated upstream
-}
-
-=======
     #myCarousel .carousel-caption h1{
     font-size: 1.8em;
 }
 
 }
->>>>>>> Stashed changes
