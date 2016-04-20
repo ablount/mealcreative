@@ -59,25 +59,21 @@ h3 {
 }
 
 #nav_logo{
-<<<<<<< HEAD
-    height: 200%;
-=======
     height: 250%;
->>>>>>> origin/dev-it
+=
 }
 
 .navbar .navbar-nav li a {
     color: white;
 }
 
-<<<<<<< HEAD
+
 .navbar-default .navbar-nav > li > a {
     color: white; 
     font-family: 'Oswald', sans-serif;
     font-size: 0.9em;
 }
-=======
->>>>>>> origin/dev-it
+
 
 /*Carousel Styles*/
 
