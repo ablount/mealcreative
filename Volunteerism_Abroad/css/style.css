@@ -59,7 +59,6 @@ h3 {
 
 #nav_logo{
     height: 250%;
-=
 }
 
 .navbar .navbar-nav li a {
@@ -126,10 +125,6 @@ footer {
     margin: 0 auto;
 }
 
-.my_history h3{
-    padding-top: 0;
-}
-
 .my_history_words{
     padding: 3% 0;
 }
@@ -141,7 +136,7 @@ footer {
     margin-bottom: 2%;
 }
 
-#white_title {
+.white_title {
     color: white;
     font-size: 2.75em;
     padding: 2%;
@@ -192,7 +187,7 @@ footer {
 }
 
 #program a{
-    color: #91a68c;
+    color: #b94c2f;
 }
 
 #program a:hover{
@@ -218,10 +213,23 @@ footer {
 
 h6 {
     text-transform: uppercase;
+    color: #91a68c;
 }
 
 #faq_title {
     margin-bottom: 12%;
+}
+.faq{
+    background-color: #91a68c;
+}
+
+.faq_questions div p a{
+    color: #b94c2f;
+}
+
+.faq_questions a:hover{
+    text-decoration: none;
+    color: black;
 }
 
 /* keep full widget on smaller screens */
