@@ -40,7 +40,7 @@ h3 {
 }
 
 #nav_logo{
-    height: 150%;
+    height: 200%;
 }
 
 .navbar h4 {
@@ -49,6 +49,8 @@ h3 {
 
 .navbar-default .navbar-nav > li > a {
     color: white; 
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.9em;
 }
 
 /*Carousel Styles*/
@@ -107,6 +109,7 @@ footer {
 
 #my_faq {
     color: #efcb68;
+    padding-top: 3%;
 }
 
 #my_faq a{ 
@@ -170,6 +173,7 @@ h6 {
 		padding-left: 0;
 		padding-right: 0;
 	}
+ 
     
 }
 
