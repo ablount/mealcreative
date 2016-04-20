@@ -86,6 +86,10 @@ body {
     width: 100%;
 }
 
+#myCarousel{
+    margin-top: 75px;
+}
+
 .item,
 .active,
 .carousel-inner {
