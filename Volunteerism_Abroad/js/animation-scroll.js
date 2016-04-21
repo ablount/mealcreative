@@ -4,7 +4,7 @@ $(document).ready(function () {
 
         var verticalScroll = $(this).scrollTop();
 
-        if(verticalScroll = 0) {
+        if(verticalScroll >= 0) {
 
             $('#carousel_logo').addClass('animated slideInLeft');
         }
