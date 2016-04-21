@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,10 +10,13 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
-      
+
     <!-- Animation -->
-    <link href="css/animate.css" rel="stylesheet" type="text/css"/>
-      
+    <link href="css/animate.css" rel="stylesheet" type="text/css" />
+
+    <!-- My fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Oswald|Crimson+Text' rel='stylesheet' type='text/css'>
+
     <!-- My Stylez -->
     <link href="css/style.css" rel="stylesheet" type="text/css">
 
@@ -22,10 +26,275 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
-  <body>
-    
-    <h1>Volunteerism Abroad</h1>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header" id="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="glyphicon glyphicon-menu-hamburger"></span>
+                </button>
+
+                <a class="navbar-brand" href="index.html"><img id="nav_logo" src="img/VALogoWhite.png"></a>
+
+            </div>
+
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#nav_about_us">About Us</a></li>
+                    <li><a href="#nav_program">The Program</a></li>
+                    <li><a href="#nav_stay">Where You'll Stay</a></li>
+                    <li><a href="#nav_our_story">Our Story</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="mailto:hello@volunteerismabroad.com">Contact</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!--    CAROUSEL TRY MC-->
+
+    <!-- Half Page Image Background Carousel Header -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <!-- Set the first background image using inline CSS below. -->
+                <div class="fill"><img class="img-responsive" src="img/carousel_1.JPG" /></div>
+                <div class="carousel-caption">
+                    <img id="carousel_logo" class="animated zoomIn" src="img/VALogoWhite.png" />
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the second background image using inline CSS below. -->
+                <div class="fill"><img class="img-responsive" src="img/carousel_2.JPG" /></div>
+                <div class="carousel-caption">
+                    <h1>TRAVEL &amp; CHANGE LIVES </h1>
+                    <a id="learn_more" class="btn btn-default" href="contactus">LEARN MORE</a>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill"><img class="img-responsive" src="img/carousel_3.JPG" /></div>
+                <div class="carousel-caption">
+                    <h1>VOLUNTEER IN MOROCCO</h1>
+                    <a id="learn_more" class="btn btn-default" href="contactus">LEARN MORE</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+
+    </header>
+
+    <!--    WHO ARE WE SECTION-->
+    <div id="nav_about_us"></div>
+
+    <div class="container-fluid" id="about_us">
+        <div class="row my_history">
+            <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+                <h3 class="text-center white_title">WHO WE ARE</h3>
+
+                <p id="who_text" class="text-justify my_history_words">Volunteerism Abroad is an organization devoted to change. Our focus is getting people out and into the world so they can positively alter lives, and hopefully in the process enrich their own lives. We are a intensely hands-on organization that doesn’t believe in blindly sending people abroad without a dedicated circle of people waiting for you on the ground when you arrive. Whatever goal you might have for going out and volunteering, we hope we can be there to help make your journey as easy, affordable, safe, and life changing as possible.</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--    FULL PHOTO SECTION WITH QUOTE -->
+
+    <div class="container-fluid">
+
+        <div class="row">
+
+            <div class="col-xs-10 col-xs-offset-1 collage">
+
+                <img id="collage" class="img-responsive hide_me" src="img/CollagePhotos.png" />
+
+            </div>
+
+        </div>
+
+        <div class="col-xs-8 col-xs-offset-2" id="testimonial">
+
+            <p><em>"I have had the travel bug for a long time, and out of all of my experiences abroad this one was the closest to my heart. The worst part about the trip was leaving all of the amazing people I met on my journey. I will be volunteering here again as soon as I can, and hope to bring family and friends along to share this amazing opportunity with!"<br><br>- Julie Tran</em></p>
+
+            <div id="nav_program"></div>
+
+        </div>
+
+    </div>
+
+    </div>
+
+
+    <!--    NEXT TWO SECTIONS IN ONE CONTAINER FLUID -->
+
+    <div class="container-fluid" id="stay">
+        <div class="row">
+
+            <div class="col-xs-12 col-sm-6">
+
+                <div class="col-xs-8 col-xs-offset-2 col-sm-10 col-sm-offset-1 padded_img">
+                    <img class="img-responsive hide_me" id="blue_photo" src="img/photos_leftmiddle.jpg">
+                </div>
+                <div class="col-xs-10 col-xs-offset-1">
+
+                    <h3>WHERE WILL I STAY?</h3>
+
+                    <p class="text-justify">While staying in Morocco you have two choices. You can rent an apartment, or you can live with a host family. We highly recommend staying with a host family for a truly Moroccan experience. We feel you should go outside your comfort zone to choose a place that takes you away from your home culture. If you are volunteering for an extended amount of time, you can start with a homestay for the first portion of your experience to decide if you just can’t go on with life without your host family or if you'd prefer a space of your own.</p>
+
+                </div>
+
+            </div>
+            <div class="col-xs-12 col-sm-6" id="program">
+
+                <div class="col-xs-10 col-xs-offset-1">
+
+                    <h3>THE MOROCCAN PROGRAM</h3>
+
+                    <p class="text-justify">Morocco is a culturally rich and exciting country. We pride ourselves on being very selective when choosing a country for Volunteerism Abroad, and Morocco truly offers so much for our volunteers. The country is easily accessible due to its proximity to Europe, it has good public transit systems, and its all around affordability helps make this a very tangible place to enter. Along with being a beautiful and exotic location, Morocco is a country full of passionate and hospitable people. This country and it's people have always left us with more than we can give back.</p>
+
+                </div>
+
+                <div class="col-xs-10 col-xs-offset-1">
+
+                    <h3 id="nav_stay">WHAT WILL I BE DOING IN MOROCCO?</h3>
+
+                    <p class="text-justify">We offer a wide range of projects that center mostly around the country’s capital city, Rabat. Our projects include:</p>
+
+                    <ul>
+                        <li>Teaching English</li>
+                        <li>Helping People with Disabilities</li>
+                        <li>Women's Empowerment Programs</li>
+                    </ul>
+
+
+                    <p class="text-justify">Due to our wonderful partners in Morocco, it’s possible we can arrange customized projects for large groups. <a href="mailto:hello@volunteerismabroad.com?subject=Customized Volunteering Projects">Shoot us an email</a>, and we will try our best to make something happen!</p>
+
+                </div>
+
+                <div class="col-xs-10 col-xs-offset-1 padded_img">
+                    <img id="class_photo" class="img-responsive hide_me" src="img/photos_rightmiddle.jpg">
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--    CONTACT US BUTTON -->
+
+        <div id="nav_our_story"></div>
+
+        <div class="row">
+
+            <div class="text-center">
+
+                <a id="contact_button" class="btn btn-default" href="mailto:hello@volunteerismabroad.com?subject=Moroccan Program">CONTACT US</a>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <!--    NEXT TWO SECTIONS IN ONE CONTAINER-->
+    <!--    RED BAR HISTORY TITLE -->
+
+    <div class="container-fluid" id="our_story">
+
+        <div class="row my_history">
+
+            <h3 class="text-center white_title">THE HISTORY OF VOLUNTEERISM ABROAD</h3>
+
+        </div>
+
+
+
+
+        <!--    WHITE HISTORY COPY-->
+        <div class="row">
+
+            <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+
+                <p class="text-justify my_history_words">Volunteerism Abroad was founded in 2015 by Chad Pettit. After volunteering and traveling abroad while getting his Bachelors degree in Geography with an International Studies minor, he returned to intern with the NGO he volunteered with in Morocco. It was during this internship he saw what many peoples' experiences were lacking, and why many people never make it abroad in the first place. He met his fist partners on this trip, and Volunteerism Abroad became what it is today.
+                    <br>
+                    <br> The first person you will meet on your Skype interview will be Chad, and the first person you meet upon arriving to your volunteer destination will be Chad. Like mentioned in the "Who We Are" section, we are an intimate group that doesn’t put it’s volunteers into the hands of strangers. You are more than number to our new, small community! </p>
+            </div>
+
+            <div class="col-xs-12 text-center">
+
+                <h4 id="my_faq">HAVE MORE QUESTIONS? VISIT OUR <a href="faq.html">FAQ PAGE</a></h4>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer class="container-fluid" id="my_footer">
+
+        <div class="row">
+
+            <div class="col-xs-4 col-sm-offset-1">
+
+                <h5>CONTACT</h5>
+
+                <p>hello@volunteerismabroad.com
+                    <br>
+                    <br> PO Box 81081
+                    <br> Austin, TX 78708
+                    <br> 512-431-5260
+                </p>
+
+            </div>
+
+            <div class="col-xs-4 col-xs-offset-4 col-sm-offset-2 text-right">
+
+                <h5>MENU</h5>
+
+                <p>
+                    <a href="#nav_about_us">About Us</a>
+                    <br>
+                    <a href="#nav_program">The Program</a>
+                    <br>
+                    <a href="#nav_stay">Where You'll Stay</a>
+                    <br>
+                    <a href="#nav_our_story">Our Story</a>
+                    <br>
+                    <a href="faq.html">FAQ</a>
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -33,5 +302,8 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- Animation -->
     <script src="js/animation-scroll.js"></script>
-  </body>
+
+    <script src="js/carousel.js"></script>
+</body>
+
 </html>

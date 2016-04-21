@@ -1,0 +1,265 @@
+/*General Styles*/
+
+p {
+    font-family: 'Crimson Text', serif;
+}
+
+ul{
+    font-family: 'Crimson Text', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+body { 
+    overflow-x: hidden;
+}
+
+h3 {
+    color: #91a68c;
+    padding-top: 8%;
+}
+
+.padded_img img{
+    padding-top: 8%;  
+}
+
+.hide_me{
+    visibility: hidden;
+}
+
+/*Navbar Styles*/
+
+.navbar{
+    margin-bottom: 0;
+    background: #b94c2f;
+    color: white;
+    border: none; 
+    border-radius: 0;
+    height: 75px;
+}
+
+#navbar-header{
+    background-color: #b94c2f;
+}
+
+.navbar div {
+    background: rgba(185, 76, 47, .5);
+}
+
+.navbar #bs-example-navbar-collapse-1{
+    padding-top: 25px;
+}
+
+.glyphicon-menu-hamburger {
+    color: white; 
+    height: ;
+}
+
+.navbar-toggle {
+    border:none;
+}
+
+#nav_logo{
+    height: 250%;
+}
+
+.navbar .navbar-nav li a {
+    color: white;
+}
+
+
+.navbar-default .navbar-nav > li > a {
+    color: white; 
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.9em;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+    color:#91a68c;
+}
+
+
+/*Carousel Styles*/
+
+html,
+body {
+    height: 100%;
+}
+
+.carousel {
+    width: 100%;
+}
+
+#myCarousel{
+    margin-top: 75px;
+}
+
+.item,
+.active,
+.carousel-inner {
+    height: 100%;
+}
+
+#carousel_logo { 
+    width:70%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+
+/*Section Styles*/
+
+
+#blue_photo{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.my_history_words{
+    padding: 3% 0;
+}
+
+.my_history { 
+    background: #91a68c;
+    padding-bottom: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.white_title {
+    color: white;
+    font-size: 2.75em;
+    padding: 2%;
+}
+
+#my_faq {
+    color: #efcb68;
+    padding-top: 3%;
+}
+
+#my_faq a{ 
+    color: #efcb68; 
+    text-decoration: underline;
+}
+
+#contact_button { 
+    background-color: #efcb68;
+    border: none;
+    color: white; 
+    border-radius: 40px;
+    padding: 1% 6%;
+    margin-top: 4%;
+    margin-bottom: 3%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.25em;
+}
+
+#learn_more {
+    background-color: #91a68c;
+    border: none;
+    color: white; 
+    border-radius: 40px;
+    padding: 1% 6%;
+    margin-top: 3%;
+    margin-bottom: 12%;
+    font-family: 'Oswald', sans-serif;
+}
+
+.collage {
+    padding-top:7%;
+}
+
+#testimonial {
+    border: 2px solid #efcb68;
+    padding: 2%;
+    margin-top: 3%;
+    margin-bottom:5%;
+}
+
+#program a{
+    color: #b94c2f;
+}
+
+#program a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+/*Footer Styles*/
+
+#my_footer {
+    background: #e1e1e1;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 0;
+}
+
+#my_footer  a {
+    color: black; 
+    text-decoration: underline;
+}
+
+/*FAQ Styles*/
+
+h6 {
+    text-transform: uppercase;
+    color: #91a68c;
+}
+
+#faq_title {
+    margin-bottom: 12%;
+}
+.faq{
+    background-color: #91a68c;
+}
+
+.faq_questions div p a{
+    color: #b94c2f;
+}
+
+.faq_questions a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+/* keep full widget on smaller screens */
+@media (max-width: 767px) { 
+	body {
+		padding-left: 0;
+		padding-right: 0;
+	}
+ 
+    
+    #myCarousel .carousel-caption h1{
+        font-size: 1.8em;
+    }
+    
+    .navbar{
+        height: 50px;
+    }
+    
+    #nav_logo{
+        height: 150%;
+    }
+    
+    #myCarousel{
+        margin-top: 50px;
+    }
+    
+}
+
+}
