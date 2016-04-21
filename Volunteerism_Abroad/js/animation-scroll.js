@@ -1,54 +1,77 @@
 $(document).ready(function () {
 
-    $(window).scroll(function() {
+    $(window).on('load', function () {
+        console.log($(window).scrollTop());
+
+    });
+
+    $(window).scroll(function () {
 
         var verticalScroll = $(this).scrollTop();
 
-        if(verticalScroll >= 0) {
+        if (verticalScroll >= 0) {
 
             $('#carousel_logo').addClass('animated slideInLeft');
         }
 
     });
     
-      $(window).on('load', function () {
-        console.log($(window).scrollTop());
-
-    });
-    
-    $(window).scroll(function() {
+        $(window).scroll(function () {
 
         var verticalScroll = $(this).scrollTop();
 
-        if(verticalScroll >= 500) {
+        if (verticalScroll >= 0) {
+
+            $('#faq_title').addClass('animated slideInLeft');
+        }
+
+    });
+
+
+    $(window).scroll(function () {
+
+        var verticalScroll = $(this).scrollTop();
+
+        if (verticalScroll >= 700) {
 
             $('#collage').addClass('animated fadeInDown');
         }
 
     });
-    
-        $(window).scroll(function() {
+
+    $(window).scroll(function () {
 
         var verticalScroll = $(this).scrollTop();
 
-        if(verticalScroll >= 1220) {
+        if (verticalScroll >= 1000) {
 
             $('#blue_photo').addClass('animated fadeInLeft');
         }
 
     });
-    
-            $(window).scroll(function() {
+
+    $(window).scroll(function () {
 
         var verticalScroll = $(this).scrollTop();
 
-        if(verticalScroll >= 1920) {
+        if (verticalScroll >= 1600) {
 
             $('#contact_button').addClass('animated bounce');
         }
 
     });
-    
-    
-    
+
+    $(window).scroll(function () {
+
+        var verticalScroll = $(this).scrollTop();
+
+        if (verticalScroll >= 2300) {
+
+            $('#my_faq').addClass('animated tada');
+        }
+
+    });
+
+
+
 });
