@@ -32,7 +32,7 @@ $(document).ready(function () {
 
         var verticalScroll = $(this).scrollTop();
 
-        if (verticalScroll >= 700) {
+        if (verticalScroll >= 500) {
 
             $('#collage').addClass('animated fadeInDown');
         }
@@ -49,12 +49,23 @@ $(document).ready(function () {
         }
 
     });
+    
+    $(window).scroll(function () {
+
+        var verticalScroll = $(this).scrollTop();
+
+        if (verticalScroll >= 1700) {
+
+            $('#class_photo').addClass('animated fadeInRight');
+        }
+
+    });
 
     $(window).scroll(function () {
 
         var verticalScroll = $(this).scrollTop();
 
-        if (verticalScroll >= 1600) {
+        if (verticalScroll >= 1900) {
 
             $('#contact_button').addClass('animated bounce');
         }
@@ -65,7 +76,7 @@ $(document).ready(function () {
 
         var verticalScroll = $(this).scrollTop();
 
-        if (verticalScroll >= 2300) {
+        if (verticalScroll >= 2400) {
 
             $('#my_faq').addClass('animated tada');
         }
