@@ -4,10 +4,11 @@ $(document).ready(function () {
 
         var verticalScroll = $(this).scrollTop();
 
-        if(verticalScroll >= x) {
+        if(verticalScroll = 0) {
 
-            $('#element').addClass('effect');
+            $('#carousel_logo').addClass('animated slideInLeft');
         }
 
     });
+    
 });
