@@ -25,6 +25,10 @@ h3 {
     padding-top: 8%;  
 }
 
+.hide_me{
+    visibility: hidden;
+}
+
 /*Navbar Styles*/
 
 .navbar{

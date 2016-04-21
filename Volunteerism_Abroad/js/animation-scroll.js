@@ -1,32 +1,5 @@
 $(document).ready(function () {
 
-    $(window).on('load', function () {
-        console.log($(window).scrollTop());
-
-    });
-
-    $(window).scroll(function () {
-
-        var verticalScroll = $(this).scrollTop();
-
-        if (verticalScroll >= 0) {
-
-            $('#carousel_logo').addClass('animated slideInLeft');
-        }
-
-    });
-    
-        $(window).scroll(function () {
-
-        var verticalScroll = $(this).scrollTop();
-
-        if (verticalScroll >= 0) {
-
-            $('#faq_title').addClass('animated slideInLeft');
-        }
-
-    });
-
 
     $(window).scroll(function () {
 
@@ -35,6 +8,7 @@ $(document).ready(function () {
         if (verticalScroll >= 500) {
 
             $('#collage').addClass('animated fadeInDown');
+            $('#collage').removeClass('hide_me');
         }
 
     });
@@ -43,9 +17,10 @@ $(document).ready(function () {
 
         var verticalScroll = $(this).scrollTop();
 
-        if (verticalScroll >= 1000) {
+        if (verticalScroll >= 1500) {
 
             $('#blue_photo').addClass('animated fadeInLeft');
+            $('#blue_photo').removeClass('hide_me');
         }
 
     });
@@ -54,9 +29,10 @@ $(document).ready(function () {
 
         var verticalScroll = $(this).scrollTop();
 
-        if (verticalScroll >= 1700) {
+        if (verticalScroll >= 1800) {
 
             $('#class_photo').addClass('animated fadeInRight');
+            $('#class_photo').removeClass('hide_me');
         }
 
     });
@@ -65,7 +41,7 @@ $(document).ready(function () {
 
         var verticalScroll = $(this).scrollTop();
 
-        if (verticalScroll >= 1900) {
+        if (verticalScroll >= 2200) {
 
             $('#contact_button').addClass('animated bounce');
         }
@@ -76,7 +52,7 @@ $(document).ready(function () {
 
         var verticalScroll = $(this).scrollTop();
 
-        if (verticalScroll >= 2400) {
+        if (verticalScroll >= 2750) {
 
             $('#my_faq').addClass('animated tada');
         }
