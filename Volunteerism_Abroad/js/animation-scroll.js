@@ -1,17 +1,30 @@
 $(document).ready(function () {
 
-
+    
     $(window).scroll(function () {
 
         var verticalScroll = $(this).scrollTop();
 
         if (verticalScroll >= 500) {
 
-            $('#collage').addClass('animated fadeInDown');
-            $('#collage').removeClass('hide_me');
+            $('#left_pic').addClass('animated fadeInRight');
+            $('#left_pic').removeClass('hide_me');
         }
 
     });
+    
+        $(window).scroll(function () {
+
+        var verticalScroll = $(this).scrollTop();
+
+        if (verticalScroll >= 500) {
+
+            $('#right_pic').addClass('animated fadeInLeft');
+            $('#right_pic').removeClass('hide_me');
+        }
+
+    });
+    
 
     $(window).scroll(function () {
 

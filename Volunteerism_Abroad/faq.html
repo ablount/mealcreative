@@ -9,7 +9,7 @@
     <title>Volunteerism Abroad</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Animation -->
     <link href="css/animate.css" rel="stylesheet" type="text/css" />
@@ -30,24 +30,33 @@
 
 <body>
 
-    <nav class="navbar navbar-default navbar-fixed-top">
+       <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
+            <div class="navbar-header" id="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="glyphicon glyphicon-menu-hamburger"></span>
                 </button>
 
-                <a class="navbar-brand" href="index.html"><img id="nav_logo" src="img/VALogoWhite.png"></a>
+                <a class="navbar-brand" href="index.html"><img id="nav_logo" src="img/logo_nav.png"></a>
+
             </div>
 
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a href="index.html">Home</a></li>
-                  <li><a href="mailto:hello@volunteerismabroad.com">Contact</a></li>
+                  <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programs<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a class="program" href="morocco.html">Morocco</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="enroll.html">Enroll</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="mailto:hello@volunteerismabroad.com">Contact</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -67,7 +76,7 @@
                 <!-- Set the first background image using inline CSS below. -->
                 <div class="fill"><img class="img-responsive" src="img/faqpic.jpg" /></div>
                 <div class="carousel-caption">
-                    <h1 class="animated zoomIn" id="faq_title">FREQUENTLY ASKED QUESTIONS</h1>
+                    <h1 class="animated zoomIn big_caption" id="carousel_h1">FREQUENTLY ASKED QUESTIONS</h1>
                 </div>
             </div>
         </div>
@@ -120,7 +129,7 @@
                 <br>
 
                 <h6>What if I don’t want to volunteer anymore after I arrive to my project?</h6>
-                <p>If you change your mind after your arrival, you will be required to participate in at least two weeks worth of project placement and homestay before any refunds will be made available.</p>
+                <p>Unfortunately, if you change your mind after your arrival we can only refund your money for anything after 4 weeks of placement.</p>
 
                 <br>
 
@@ -135,7 +144,7 @@
                 <br>
 
                 <h6>How do I obtain travel insurance?</h6>
-                <p>It’s easy to shop around for travel insurance online. If you don’t have time to look around, <a href="https://www.insuremytrip.com/">here is a helpful link for finding insurance that works for you.</a></p>
+                <p>It’s easy to shop around for travel insurance online. If you don’t have time to look around, <a href="https://www.insuremytrip.com/">here is a helpful link for finding insurance.</a></p>
 
                 <br>
 
@@ -172,10 +181,16 @@
 
             <div class="col-xs-4 col-xs-offset-4 col-sm-offset-2 text-right">
 
-                <h5>NAVIGATION</h5>
+                <h5>MENU</h5>
 
                 <p>
                     <a href="index.html">Home</a>
+                    <br>
+                    <a href="morocco.html">Morocco Program</a>
+                    <br>
+                    <a href="enroll.html">Enroll</a>
+                    <br>
+                    <a href="faq.html">FAQ</a>
                 </p>
 
             </div>
