@@ -42,7 +42,7 @@ h3 {
     color: white;
     border: none; 
     border-radius: 0;
-    height: 100px;
+    height: 75px;
 }
 
 #navbar-header{
@@ -59,7 +59,6 @@ h3 {
 
 .glyphicon-menu-hamburger {
     color: white; 
-    height: ;
 }
 
 .navbar-toggle {
@@ -67,7 +66,7 @@ h3 {
 }
 
 #nav_logo{
-    height: 350%;
+    height: 250%;
 }
 
 .navbar .navbar-nav li a {
@@ -78,7 +77,7 @@ h3 {
 .navbar-default .navbar-nav > li > a {
     color: white; 
     font-family: 'Oswald', sans-serif;
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 
 .navbar-default .navbar-nav > li > a:hover{
