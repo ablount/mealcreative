@@ -263,6 +263,14 @@ h6 {
     margin-bottom: 18%;
 }
 
+/*Morocco Stylez*/
+
+th {
+    text-align: center;
+}
+
+
+
 /* keep full widget on smaller screens */
 @media (max-width: 767px) { 
 	body {
