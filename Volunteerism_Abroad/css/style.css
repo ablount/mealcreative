@@ -269,6 +269,10 @@ th {
     text-align: center;
 }
 
+#style_anchor {
+    color: #b94c2f;
+    text-decoration: none;
+}
 
 
 /* keep full widget on smaller screens */
