@@ -30,7 +30,7 @@ $(document).ready(function () {
 
         var verticalScroll = $(this).scrollTop();
 
-        if (verticalScroll >= 500) {
+        if (verticalScroll >= 800) {
 
             $('#blue_photo').addClass('animated fadeInLeft');
             $('#blue_photo').removeClass('hide_me');
@@ -42,7 +42,7 @@ $(document).ready(function () {
 
         var verticalScroll = $(this).scrollTop();
 
-        if (verticalScroll >= 800) {
+        if (verticalScroll >= 500) {
 
             $('#class_photo').addClass('animated fadeInRight');
             $('#class_photo').removeClass('hide_me');
