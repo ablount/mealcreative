@@ -5,7 +5,7 @@ require_once('phpmailer/PHPMailerAutoload.php');
 $toemails = array();
 
 $toemails[] = array(
-				'email' => 'ablount@gmail.com', // Your Email Address
+				'email' => 'hello@volunteerismabroad.com', // Your Email Address
 				'name' => 'Volunteerism Abroad' // Your Name
 			);
 
