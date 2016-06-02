@@ -6,7 +6,7 @@ $toemails = array();
 
 $toemails[] = array(
 				'email' => 'Lancemaui@gmail.com', // Your Email Address
-				'name' => 'YLance Hevizy' // Your Name
+				'name' => 'Lance Hevizy' // Your Name
 			);
 
 // Form Processing Messages
