@@ -89,7 +89,7 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
             $student = isset($student) ? "College or University: $student<br><br>" : '';
             $projectfocus = isset($projectfocus) ? "Project Focus: $projectfocus<br><br>" : '';
             $country = isset($country) ? "Desired Country: $country<br><br>" : '';
-            $start = isset($start) ? "Desired Start Date: $date<br><br>" : '';
+            $start = isset($start) ? "Desired Start Date: $start<br><br>" : '';
             $weeks = isset($weeks) ? "Number of Weeks: $weeks<br><br>" : '';
             $housing = isset($housing) ? "Type of Housing: $housing<br><br>" : '';
             $alone = isset($alone) ? "Volunteering Alone: $alone<br><br>" : '';
