@@ -261,7 +261,8 @@ h6 {
 
 label { 
     font-family: 'Crimson Text', serif;
-    font-size: 1.2em;
+    font-size: 1.4em;
+    margin-right: 1%;
 }
 
 #enroll_button {
@@ -275,9 +276,47 @@ label {
     font-size: 1.3em;
 }
 
+.submit_button{
+    text-align: center;
+}
+
+#submit_imput {
+    background-color: #91a68c;
+    border: none;
+}
+
 .big_caption {
     margin-bottom: 18%;
 }
+
+textarea { 
+    width: 60%;
+}
+
+input { 
+    height: 40px;
+    width: 500px;
+}
+
+select {
+    width: 200px; 
+    height: 30px;
+}
+
+#my_checkbox {
+    width: 100px;
+    height:20px;
+}
+
+input#submit_imput {
+    width: 200px;
+}
+
+#date_width {
+    width: 100px; 
+    height: 30px;
+}
+
 
 /*Morocco Stylez*/
 
